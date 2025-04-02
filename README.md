@@ -27,4 +27,14 @@ Este é um layout de site responsivo construído usando Bootstrap 5.3. Demonstra
 | **🃏 Cards** | Empilhamento vertical |
 | **📰 Newsletter** | Ajuste automático |
 
-s
+🚀 Como Executar o Projeto
+
+Clone este repositório:
+
+git clone https://github.com/seu-usuario/bootstrap-playground.git
+
+Acesse a pasta do projeto:
+
+cd bootstrap-playground
+
+Abra o arquivo index.html no navegador ou utilize um servidor local.
