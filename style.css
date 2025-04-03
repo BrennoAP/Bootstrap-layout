@@ -1,3 +1,16 @@
+
+/* usando esse sudo selector para o navbar nao sobrepor a imagem do showcase */
+body::before{
+
+    display: block;
+    content: '';
+    height:70px;
+}
+
+
+
+
+/* ajusatando o tamanho o text-input no input-group */
 @media(min-width:768px){
 
     .custom-news-input{
