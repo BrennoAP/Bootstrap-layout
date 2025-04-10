@@ -18,7 +18,7 @@
 <body>
     <!-- NAVBAR -->
 
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark py-3 fixed-top">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark py-1 fixed-top">
         <div class="container-fluid" >
             <!-- se usar o container-fluid ajuda a posicionar os itens nos extremos melhor-->
             <a href="#" class="navbar-brand" >
@@ -33,18 +33,19 @@
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav  ms-auto ">
                     <li class="nav-item">
-                        <a href="#Questions" class="nav-link">
-                            link para o FAQ
-                        </a>
-                    </li>
-                    <li class="nav-item">
                         <a href="#learn" class="nav-link">
                             link para o Learn
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#link-3" class="nav-link">
-                            esse é mais um link
+                        <a href="#Questions" class="nav-link">
+                            link para o FAQ
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#testimonials" class="nav-link">
+                            Testemunhos
                         </a>
                     </li>
                 </ul>
@@ -54,13 +55,13 @@
     </nav>
 
     
-<!-- SHOWCASE SECTION -->
+    <!-- SHOWCASE SECTION -->
 
     <section class="bg-dark text-center text-sm-start text-light p1">
             <div class="container">
                 <div class="d-sm-flex justify-content-between align-items-center">
                     <div class="container mt-sm-5">
-                        <h1 class="d-block d-sm-none pb-2">
+                        <h1 class="d-block d-sm-none py-3">
                             Em telas <span class="text-warning">maiores</span> tem uma imagem ao lado dessa mensagem
                             
                         </h1>
@@ -70,7 +71,10 @@
                             
                         </h1>
                         <p class="lead d-none d-sm-block pb-2">(muda a mensagem tambem)</p>
-                        <button class="btn btn-primary btn-lg mb-2"> Abrir Modal</button>
+                        <button class="btn btn-primary btn-lg mb-2"
+                        data-bs-toggle="modal"
+                        data-bs-target="#cadastro"
+                        > Abrir Modal</button>
 
                     </div>
                     <img src="assets/2842680.png" alt="person using computer" class="img-fluid w-50 d-none d-sm-block " >
@@ -83,7 +87,7 @@
 
     </section>
 
-<!-- NEWSLETTER -->
+    <!-- NEWSLETTER -->
 
     <section class="bg-primary text-light p-5">
 
@@ -106,11 +110,11 @@
 
     </section>
 
-<!-- CARDS   -->
+   <!-- CARDS   -->
 
-<section class="p-5">
+   <section class="p-5">
 
-    <div class="container">
+      <div class="container">
 
         <div class="row text-center gy-3">
             <div class="col-md "> 
@@ -162,7 +166,7 @@
         </div>
 
     </section>
-<!-- LEARN SECTION -->
+        <!-- LEARN SECTION -->
         
         <section class="p-5" id="learn">
 
@@ -216,7 +220,7 @@
 
        <section class="p-5" id="Questions">
         <div class="container justify-content-between align-items-center">
-            <h2 class="text-center mb-4">Perguntas Frequentes</h2>
+            <h2 class="text-center my-4">Perguntas Frequentes</h2>
             <div class="accordion accordion-flush" id="faq">
                 <!-- item 1 -->
                 <div class="accordion-item">
@@ -351,6 +355,7 @@
                 <div class="row g-4">
                     <div class="col-md">
                         <h2 class="text-center my-4">Informações de Contato</h2>
+
                         <ul class="list-group list-group-flush lead">
                             <li class="list-group-item">
                                 <i class="bi bi-geo-alt"></i><span class="fw-bold"> Endereço:</span>  Rua tal bairro tal numero tal
@@ -377,10 +382,57 @@
 
        </section>
 
-    </div>
+       <!-- FOOTER -->
+    
+       <footer class="p-5 bg-dark text-white text-center position-relative">
 
-</div>
-</section>
+            <div class="container">
+                <p class="lead">Copyright &copy; Boostrap layout 2025</p>
+            </div>
+
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+       </footer>
+
+
+       <!-- SHOWCASE MODAL -->
+       
+        <div class="modal fade" id="cadastro" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Cadastro de mintirinha</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" >
+
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p class="lead text-center">Esse é um exemplo de modal no bootstrap</p>
+                  <form >
+                    <div class="mb-2">
+                        <label for="nome" class="col-form-label">Nome:</label>
+                        <input type="text" class="form-control" id="nome">
+                    </div>
+                    <div class="mb-2">
+                        <label for="telefone" class="col-form-label">Telefone:</label>
+                        <input type="text" class="form-control" id="telefone">
+                    </div>
+                    <div class="mb-2">
+                        <label for="email" class="col-form-label">Email:</label>
+                        <input type="text" class="form-control" id="email">
+                    </div>
+                  </form>  
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+
 
 
 
