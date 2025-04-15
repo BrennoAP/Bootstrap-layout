@@ -1,40 +1,40 @@
 # 🚀 Projeto de Layout com Bootstrap
 
-Este é um layout de site responsivo construído usando Bootstrap 5.3. Demonstra vários componentes do Bootstrap e técnicas de design responsivo.
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-563D7C?logo=bootstrap)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5)
+![Responsivo](https://img.shields.io/badge/Responsivo-Sim-brightgreen)
+
+Um layout completo e responsivo construído com Bootstrap 5.3 demonstrando diversos componentes e técnicas responsivas.
 
 ## ✨ Funcionalidades
 
-- **📱 Navbar Responsiva** - Colapsa em menu hamburguer em dispositivos móveis
-- **🖼️ Seção Destaque** - Conteúdo adaptável ao tamanho da tela
-- **📧 Formulário Newsletter** - Layout responsivo com input group
-- **🃏 Grid de Cards** - 3 cards demonstrando o sistema grid do Bootstrap
-- **🎨 Ícones Bootstrap** - Integrados via CDN
+- **Navbar responsiva** com menu toggle
+- **Seção de destaque** com conteúdo condicional
+- **Formulário de newsletter** com input group
+- **Grid de cards** com altura igual
+- **Accordion FAQ** no estilo flush
+- **Seção de depoimentos** com cards de usuários
+- **Modal funcional** com formulário
+- **Seção de contato** com informações
+- **Botão voltar ao topo** no footer
 
 ## 🛠️ Tecnologias
 
-| Tecnologia | Descrição |
-|------------|-----------|
-| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) | Estrutura do documento |
-| ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white) | Framework CSS/JS |
-| ![Bootstrap Icons](https://img.shields.io/badge/Bootstrap_Icons-563D7C?style=flat&logo=bootstrap&logoColor=white) | Biblioteca de ícones |
+- Bootstrap 5.3
+- Bootstrap Icons
+- HTML5
+- CSS customizado
 
-## 📱 Responsividade
+## 📱 Comportamento Responsivo
 
-| Recurso | Comportamento |
-|---------|---------------|
-| **↔️ Navbar** | Toggle entre estados |
-| **🖼️ Imagem Destaque** | Oculta em mobile |
-| **🃏 Cards** | Empilhamento vertical |
-| **📰 Newsletter** | Ajuste automático |
+| Tamanho de Tela | Navbar | Imagem Destaque | Layout dos Cards |
+|-----------------|--------|-----------------|------------------|
+| Mobile         | Colapsada | Ocultada | 1 coluna |
+| Tablet         | Expandida | Visível | 2 colunas |
+| Desktop        | Expandida | Visível | 3 colunas |
 
-🚀 Como Executar o Projeto
 
-Clone este repositório:
-
-git clone https://github.com/seu-usuario/bootstrap-playground.git
-
-Acesse a pasta do projeto:
-
-cd bootstrap-playground
-
-Abra o arquivo index.html no navegador ou utilize um servidor local.
+## 📚 Links Úteis
+- [Documentação](https://getbootstrap.com/docs/5.3/)
+- [Ícones](https://icons.getbootstrap.com/)
+- [Exemplos](https://getbootstrap.com/docs/5.3/examples/)
